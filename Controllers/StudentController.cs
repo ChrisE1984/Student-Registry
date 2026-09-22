@@ -9,9 +9,9 @@ namespace Student_Registry.Controllers
     public class StudentController : ControllerBase
     {
         static List<StudentRegistry> Students = [
-            new StudentRegistry {Id = 1, Name = "Paul Scheer", Year = 12, Grade = 4.0, IsPresent = true},
-            new StudentRegistry {Id = 2, Name = "Jason Mantzoukas", Year = 11, Grade = 2.5, IsPresent = false},
-            new StudentRegistry {Id = 3, Name = "June Diane Raphael", Year = 12, Grade = 3.7, IsPresent = true}
+            new StudentRegistry {Id = 1, Firstname = "Andre", Lastname = "Noszick", Hobby = "Flute", Email = "twilightbreakingdawndres@gmail.com", Slackname = "Andre3000"},
+            new StudentRegistry {Id = 1, Firstname = "Rodney", Lastname = "Ruxin", Hobby = "Fantasy Football", Email = "shivachamp@gmail.com", Slackname = "TheChamp"},
+            new StudentRegistry {Id = 1, Firstname = "Taco", Lastname = "MacAurther", Hobby = "Taco", Email = "passwordistaco@gmail.com", Slackname = "MrMcGiblets"}
         ];
 
         private static int _nextID = 4;
@@ -61,10 +61,11 @@ namespace Student_Registry.Controllers
                     return NotFound($"No student exists with id {id}.");
                 }
 
-                student.Name = incoming.Name;
-                student.Year = incoming.Year;
-                student.Grade = incoming.Grade;
-                student.IsPresent = incoming.IsPresent;
+                student.Firstname = incoming.Firstname;
+                student.Lastname = incoming.Lastname;
+                student.Hobby = incoming.Hobby;
+                student.Email = incoming.Email;
+                student.Slackname = incoming.Slackname;
 
                 return Ok(true);
             } 

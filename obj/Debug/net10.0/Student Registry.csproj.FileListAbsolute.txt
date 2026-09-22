@@ -31,3 +31,4 @@ C:\Users\cestr\Desktop\Homework\Student Registry\obj\Debug\net10.0\refint\Studen
 C:\Users\cestr\Desktop\Homework\Student Registry\obj\Debug\net10.0\Student Registry.pdb
 C:\Users\cestr\Desktop\Homework\Student Registry\obj\Debug\net10.0\Student Registry.genruntimeconfig.cache
 C:\Users\cestr\Desktop\Homework\Student Registry\obj\Debug\net10.0\ref\Student Registry.dll
+C:\Users\cestr\Desktop\Homework\Student Registry\obj\Debug\net10.0\Student Registry.sourcelink.json
