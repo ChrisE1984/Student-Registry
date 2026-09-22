@@ -1,0 +1,6 @@
+@Student_Registry_HostAddress = http://localhost:5259
+
+GET {{Student_Registry_HostAddress}}/api/Student/StudentsAll
+Accept: application/json
+
+###
