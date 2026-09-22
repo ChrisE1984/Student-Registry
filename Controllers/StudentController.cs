@@ -18,7 +18,7 @@ namespace Student_Registry.Controllers
         ];
 
 
-        private static int _nextID = 4;
+        private static int _nextID = 7;
 
         [HttpGet("StudentsAll")]
         public ActionResult<List<StudentRegistry>> GetAll()
